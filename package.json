@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ragkoushik/email-service/issues"
   },
-  "homepage": "https://github.com/ragkoushik/email-service#readme"
+  "homepage": "https://github.com/ragkoushik/email-service#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0"
+  }
 }
