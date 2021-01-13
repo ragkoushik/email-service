@@ -1,0 +1,19 @@
+{
+  "name": "email-service",
+  "version": "1.0.0",
+  "description": "The application provides an abstraction between Mailgun and SendGrid email service providers. If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragkoushik/email-service.git"
+  },
+  "author": "Raghu Koushik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ragkoushik/email-service/issues"
+  },
+  "homepage": "https://github.com/ragkoushik/email-service#readme"
+}
