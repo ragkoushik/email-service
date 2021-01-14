@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/ragkoushik/email-service#readme",
   "dependencies": {
-    "async": "^3.2.0",
     "axios": "^0.21.1",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "body-parser": "^1.19.0"
   }
 }
