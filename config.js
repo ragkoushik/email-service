@@ -1,4 +1,4 @@
-require('dotenv').config()
+require("dotenv").config()
 
 module.exports = {
     sendGrid: {
@@ -11,7 +11,13 @@ module.exports = {
       username: process.env.MAILGUN_USERNAME
     },
     servicesFailoverOrder: [
-      'sendgrid',
-      'mailgun'
+      "sendgrid",
+      "mailgun"
     ],
+    mandatoryFields: [
+      "from",
+      "to",
+      "subject",
+      "body"
+    ]
   };
