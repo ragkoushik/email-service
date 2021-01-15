@@ -3,11 +3,16 @@ require('dotenv').config()
 const express = require("express");
 const bodyParser = require("body-parser");
 const app = express();
-const sendEmail = require('./lib/emailSender')
+const sendEmail = require('./lib/emailSender');
+const { request, response } = require('express');
 
 //configuring express to use body-parser as middle-ware.
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+app.get('/', (request, response) => {
+    response.end('Email service app!!')
+})
 
 /**
  *  
