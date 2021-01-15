@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (request, response) => {
-    response.end('Email service app!!')
+    response.send('Email service app!!')
 })
 
 /**
