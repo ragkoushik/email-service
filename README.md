@@ -66,6 +66,8 @@ MAILGUN_KEY =
 MAILGUN_URL = "https://api.mailgun.net/v3/sandbox5ebc4f1d3c774f389fad1d1a8dbd8b9d.mailgun.org/messages"
 ```
 ## Run
+### Tests
+`npm test`
 ### Unit tests
 `npm run test:unit`
 ### Integration tests
