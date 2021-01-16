@@ -64,6 +64,13 @@ MAILGUN_USERNAME = api
 MAILGUN_KEY = 
 MAILGUN_URL = "https://api.mailgun.net/v3/sandbox5ebc4f1d3c774f389fad1d1a8dbd8b9d.mailgun.org/messages"
 ```
+## Run
+### Unit tests
+`npm run test:unit`
+### Integration tests
+`npm run test:integration`
+### App - runs on port 3000
+`node index.js`
 
 ## TODO
 - Retry sending if both services fail
