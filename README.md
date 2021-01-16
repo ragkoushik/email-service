@@ -3,7 +3,9 @@ The application provides an abstraction between Mailgun and SendGrid email servi
 
 ## Limitations
 - SendGrid - From address should be the email address used at the time of registering.
-- Mailgun - This app currently implements a sandbox domain, recipent emails would have to be preauthorised for API keys. Hence I have SendGrid as the primary service.
+- Mailgun - This app currently implements a sandbox domain, recipent emails would have to be preauthorised for API keys. Hence I have SendGrid as the primary service. 
+
+*Please check spam for the failover scenario as if emails are sent from an email account that is not the same as the email address set while generating API keys emails cant be verified specially by gmail*
 
 ## DEMO APP
 The app is running on a AWS EC2 instance - http://ec2-3-26-39-15.ap-southeast-2.compute.amazonaws.com with two endpoints
@@ -81,5 +83,5 @@ MAILGUN_URL = "https://api.mailgun.net/v3/sandbox5ebc4f1d3c774f389fad1d1a8dbd8b9
 - API documentation
 - Containerize and setup CI/CD pipeline
 - Support for HTML email templates and attachments
-- Route traffic on https
+- Route traffic on https and implement authentication
 
