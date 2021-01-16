@@ -17,7 +17,7 @@ The app is running on a AWS EC2 instance - http://ec2-3-26-39-15.ap-southeast-2.
 
    @param {object} body email contents in the request body 
 
-   *Example*
+   *Example* - Some more sample data can be found in templates folder
 
    ```json
     {
