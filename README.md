@@ -1,11 +1,11 @@
-# email-service
+# Email Service
 The application provides an abstraction between Mailgun and SendGrid email service providers. If one of the services goes down, the other takes over.
 
-# Limitations
+## Limitations
 - SendGrid - From address should be the email address used at the time of registering.
 - Mailgun - This app currently implements a sandbox domain, recipent emails would have to be preauthorised for API keys. Hence I have SendGrid as the primary service.
 
-# DEMO APP
+## DEMO APP
 The app is running on a AWS EC2 instance - http://ec2-3-26-39-15.ap-southeast-2.compute.amazonaws.com with two endpoints
 - GET endpoint to send simple app response
     http://ec2-3-26-39-15.ap-southeast-2.compute.amazonaws.com
@@ -41,10 +41,13 @@ The app is running on a AWS EC2 instance - http://ec2-3-26-39-15.ap-southeast-2.
         "statusCode": "Status Code"
     }
     ```
+## Tech Stack
+- Node
+- Express
+- Hosted on AWS EC2 instance
 
-# Environment setup
-
-create a .env file with the following properties
+## Environment setup
+Create a .env file with the following properties
 ```
 APP_PORT = 3000
 
@@ -58,10 +61,11 @@ MAILGUN_KEY =
 MAILGUN_URL = "https://api.mailgun.net/v3/sandbox5ebc4f1d3c774f389fad1d1a8dbd8b9d.mailgun.org/messages"
 ```
 
-# TODO
+## TODO
 - Retry sending if both services fail
 - UI to setup email Recipients, Subject and Body
 - API documentation
 - Containerize and setup CI/CD pipeline
 - Support for HTML email templates and attachments
+- Route traffic on https
 

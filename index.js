@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (request, response) => {
-    response.send('Email service app!!')
+    response.redirect("https://github.com/ragkoushik/email-service#readme");
 })
 
 /**

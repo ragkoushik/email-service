@@ -4,7 +4,9 @@
   "description": "The application provides an abstraction between Mailgun and SendGrid email service providers. If one of the services goes down, your service can quickly failover to a different provider without affecting your customers.",
   "main": "index.js",
   "scripts": {
-    "test" : "jest" 
+    "test": "jest --env=node --silent",
+    "test:unit": "jest --env=node --silent tests/unit/",
+    "test:integration": "jest --env=node --silent tests/integration/"
   },
   "repository": {
     "type": "git",
