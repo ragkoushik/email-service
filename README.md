@@ -46,9 +46,9 @@ The app is running on a AWS EC2 instance - http://ec2-3-26-39-15.ap-southeast-2.
 - Express
 - Hosted on AWS EC2 instance
 - Postman collection attached for testing, scenarios:
-    - Fail both services
-    - Send Via SendGrid
-    - Failover to send Via MailGun
+    - Send Endpoint - Fail both
+    - Send Endpoint Via MainGun - failover
+    - Send Endpoint Via SendGrid
     
 ## Environment setup
 Create a .env file with the following properties
