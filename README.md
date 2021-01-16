@@ -10,7 +10,7 @@ The app is running on a AWS EC2 instance - http://ec2-3-26-39-15.ap-southeast-2.
 - GET endpoint to send simple app response
     http://ec2-3-26-39-15.ap-southeast-2.compute.amazonaws.com
     
-    Root URL that responds with the app name
+    Root URL that redirects to GitHub project page
 
 - POST endpoint to end emails vis Mailgun and SendGrid
     http://ec2-3-26-39-15.ap-southeast-2.compute.amazonaws.com/api/send
