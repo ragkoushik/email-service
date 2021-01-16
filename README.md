@@ -44,6 +44,7 @@ The app is running on a AWS EC2 instance - http://ec2-3-26-39-15.ap-southeast-2.
 ## Tech Stack
 - Node
 - Express
+- PM2
 - Hosted on AWS EC2 instance
 - Postman collection attached for testing, scenarios:
     - Send Endpoint - Fail both
