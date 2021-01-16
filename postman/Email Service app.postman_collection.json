@@ -12,7 +12,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"from\": \"ragkoushik@gmail.com\",\n  \"to\": \"ragkoushikp42@gmail.com\",\n  \"cc\": \"ragkoushik@gmail.com\",\n  \"subject\": \"Pass template\",\n  \"body\": \"This is a sample template that works in both services\"\n}",
+					"raw": "{\n  \"from\": \"ragkoushik@gmail.com\",\n  \"to\": \"ragkoushikp42@gmail.com\",\n  \"cc\": \"ragkoushik@gmail.com\",\n  \"subject\": \"Pass template- Send Via SendGrid\",\n  \"body\": \"This is a sample template that works in both services but send via send Grid\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -44,7 +44,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"from\": \"ragkoushikp42@gmail.com\",\n  \"to\": \"ragkoushikp42@gmail.com\",\n  \"cc\": \"ragkoushik@gmail.com\",\n  \"subject\": \"Pass template\",\n  \"body\": \"This is a sample template that works in both services\"\n}",
+					"raw": "{\n  \"from\": \"ragkoushikp42@gmail.com\",\n  \"to\": \"ragkoushikp42@gmail.com\",\n  \"cc\": \"ragkoushik@gmail.com\",\n  \"subject\": \"Send Via MailGun- Failover scenario\",\n  \"body\": \"This is a sample template that works in mailgun\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -76,7 +76,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"from\": \"ragkoushikp@gmail.com\",\n  \"to\": \"ragkoushikp\",\n  \"cc\": \"ragkoushik@gmail.com\",\n  \"subject\": \"Pass template\",\n  \"body\": \"This is a sample template that works in both services\"\n}",
+					"raw": "{\n  \"from\": \"ragkoushikp@gmail.com\",\n  \"to\": \"ragkoushikp\",\n  \"cc\": \"ragkoushik@gmail.com\",\n  \"subject\": \"Fail template\",\n  \"body\": \"This is a sample template that fails\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
