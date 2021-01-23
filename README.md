@@ -11,7 +11,7 @@ The application provides an abstraction between Mailgun and SendGrid email servi
     Root URL that redirects to GitHub project page
 
 - POST endpoint to end emails vis Mailgun and SendGrid
-    /api/send
+    `/api/send`
 
    @param {object} body email contents in the request body 
 
